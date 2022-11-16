@@ -5,7 +5,7 @@ html {
   background-color: #1e1e1e;
   font-family: "Inter", sans-serif;
   font-style: normal;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -71,6 +71,7 @@ header {
   justify-content: space-around;
   padding: 20px 0 0 0;
   flex: 0 0 auto;
+  width: 100%;
 }
 .menu {
   display: flex;
@@ -140,13 +141,12 @@ header {
 }
 
 .main_content {
-
   flex: 1 0 auto;
   color: #e4e5ea;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 20px 130px 0 40px;
+  padding: 20px 130px 0 55px;
 }
 .left_cont {
   display: flex;
@@ -234,7 +234,8 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
- margin-top:10%;
+  position: absolute;
+  bottom: 50px;
   flex: 0 0 auto;
   width: 100%;
 }
