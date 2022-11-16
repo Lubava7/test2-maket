@@ -27,7 +27,7 @@ a {
   opacity: 1;
   transition: 1s all;
   background-image: url("./images/red_light.png");
-  height: 50%;
+  height: 90%;
   width: 30%;
 }
 .purple_ball {
