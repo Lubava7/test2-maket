@@ -5,6 +5,7 @@ html {
   background-color: #1e1e1e;
   font-family: "Inter", sans-serif;
   font-style: normal;
+  overflow-x:hidden;
 }
 a {
   text-decoration: none;
@@ -139,6 +140,7 @@ header {
 }
 
 .main_content {
+height:100%;
   flex: 1 0 auto;
   color: #e4e5ea;
   display: flex;
