@@ -234,7 +234,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
- 
+ margin-top:10%;
   flex: 0 0 auto;
   width: 100%;
 }
